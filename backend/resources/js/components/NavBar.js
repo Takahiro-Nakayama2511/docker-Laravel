@@ -11,6 +11,9 @@ function NavBar() {
                 <Link to="/user">
                     <li className="ml-2">User</li>
                 </Link>
+                <Link to="/login">
+                    <li className="ml-2">Login</li>
+                </Link>
             </ul>
         </nav>
     )
